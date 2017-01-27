@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MoodAnalyser", "src\MoodAnalyser\MoodAnalyser.xproj", "{C57E23E6-B780-4BEF-A02B-C6FC8CD84EF7}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MoodAnalyser.Service", "src\MoodAnalyser\MoodAnalyser.Service.xproj", "{C57E23E6-B780-4BEF-A02B-C6FC8CD84EF7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MoodAnalyser.UI", "src\MoodAnalyser.UI\MoodAnalyser.UI.xproj", "{D9F177A4-A1A9-41E4-AE8E-341DFE78257A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +24,16 @@ Global
 		{C57E23E6-B780-4BEF-A02B-C6FC8CD84EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C57E23E6-B780-4BEF-A02B-C6FC8CD84EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C57E23E6-B780-4BEF-A02B-C6FC8CD84EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F177A4-A1A9-41E4-AE8E-341DFE78257A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F177A4-A1A9-41E4-AE8E-341DFE78257A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F177A4-A1A9-41E4-AE8E-341DFE78257A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F177A4-A1A9-41E4-AE8E-341DFE78257A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C57E23E6-B780-4BEF-A02B-C6FC8CD84EF7} = {474401E0-72E6-4188-A31B-C9AEA0F15D1D}
+		{D9F177A4-A1A9-41E4-AE8E-341DFE78257A} = {474401E0-72E6-4188-A31B-C9AEA0F15D1D}
 	EndGlobalSection
 EndGlobal
